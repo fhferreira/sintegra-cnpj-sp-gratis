@@ -12,7 +12,7 @@ $params = \Fhferreira\SintegraCnpjSpGratis\SintegraCnpjSpGratis::getParams();
 //Envio dos Dados via POST e captura da Resposta
 $returnCrawler = \Fhferreira\SintegraCnpjSpGratis\SintegraCnpjSpGratis::consulta(
                                                                                     $_POST['cnpj'],
-                                                                                    $_POST['ie'],
+                                                                                    null,
                                                                                     $_POST['paramBot'],
                                                                                     $_POST['captcha'],
                                                                                     $_POST['cookie']
