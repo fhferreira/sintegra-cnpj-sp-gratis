@@ -6,7 +6,7 @@
 
 
 Exemplo utilizando Silex + Twig
-```
+```php
 <?php
     $app->get('/cnpj-sintegra-sp', function() use($app) {
         $cnpj   = $app['session']->getFlashBag()->get('cnpj');
@@ -37,7 +37,7 @@ Exemplo utilizando Silex + Twig
 ```
 
 ##View
-```
+```php
 {# views/cnpj/form-sintegra.twig #}
 {% extends 'layout.twig' %}
 
