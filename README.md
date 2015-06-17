@@ -4,6 +4,20 @@
 
 ####Módulo baseado no formato utilizado por JansenFelipe para extração no site da Receita, por meio do CPF e CNPJ.
 
+```php
+<?php
+//Captura dos dados e cookie
+$params = \Fhferreira\SintegraCnpjSpGratis\SintegraCnpjSpGratis::getParams();
+
+//Envio dos Dados via POST e captura da Resposta
+$returnCrawler = \Fhferreira\SintegraCnpjSpGratis\SintegraCnpjSpGratis::consulta(
+                                                                                    $_POST['cnpj'],
+                                                                                    $_POST['ie'],
+                                                                                    $_POST['paramBot'],
+                                                                                    $_POST['captcha'],
+                                                                                    $_POST['cookie']
+                                                                                );
+```
 
 Exemplo utilizando Silex + Twig
 ```php
