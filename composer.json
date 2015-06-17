@@ -1,0 +1,31 @@
+{
+  "name": "fhferreira/sintegra-cnpj-sp-gratis",
+  "description": "Pacote com Crawler para extração gratuita de dados utilizando CNPJ's diretamente no site do sintegra de sp.",
+  "keywords": ["laravel", "cnpj", "php", "sintegra"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Flávio Henrique Ferreira",
+      "email": "flaviometalvale@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "jansenfelipe/utils": "1.0.*@dev",
+    "fabpot/goutte": "2.0.*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fhferreira\\SintegraSPGratis\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
