@@ -4,6 +4,8 @@
 
 ####Módulo baseado no formato utilizado por JansenFelipe para extração no site da Receita, por meio do CPF e CNPJ.
 
+
+Exemplo utilizando Silex + Twig
 ```
 <?php
     $app->get('/cnpj-sintegra-sp', function() use($app) {
