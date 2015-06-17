@@ -83,7 +83,8 @@ Exemplo utilizando Silex + Twig
 {% endblock %}
 ```
 
-Blade + Lumen/Laravel
+##Blade + Lumen/Laravel
+
 ```php
 $app->get('/cnpj-sintegra-sp', "App\Http\Controllers\CnpjSintegraController@getForm");
 $app->post('/cnpj-sintegra-sp', "App\Http\Controllers\CnpjSintegraController@postForm");
