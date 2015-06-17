@@ -15,8 +15,8 @@
     "fabpot/goutte": "2.0.*@dev"
   },
   "autoload": {
-    "psr-4": {
-      "Fhferreira\\SintegraSPGratis\\": "src"
+    "psr-0": {
+        "Fhferreira\\SintegraCnpjSpGratis\\": "src/"
     }
   },
   "require-dev": {
