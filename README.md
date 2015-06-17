@@ -1,6 +1,8 @@
-#Package com Crawler para extração gratuita de dados utilizando CNPJ's diretamente no site do sintegra de sp.
+##Extração de dados Sintegra
 
-##Módulo baseado no formato utilizado por JansenFelipe para extração no site da Receita, por meio do CPF e CNPJ.
+###Package com Crawler para extração gratuita de dados utilizando CNPJ's diretamente no site do sintegra de sp.
+
+####Módulo baseado no formato utilizado por JansenFelipe para extração no site da Receita, por meio do CPF e CNPJ.
 
 ```
 <?php
